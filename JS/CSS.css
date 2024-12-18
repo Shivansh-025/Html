@@ -1,0 +1,19 @@
+div{
+    height: 120px;
+    width: 120px;
+    border: 2px solid black;
+    display: flex;
+}
+section{
+    height: 80px;
+    width: 80px;
+    border: 2px solid black;
+    margin: auto;
+    display: flex;
+}
+article{
+    height: 40px;
+    width: 40px;
+    border: 2px solid black;
+    margin: auto;
+}

@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    height: 300px;
+    width: 300px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-top: 50px;
+}
+section>div{
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+section>div:first-child{
+    height: 250px;
+    width: 125px;
+    background-image: url(./left\ heart.jpeg);
+    animation: leftheart;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+}
+section>div:last-child{
+    height: 250px;
+    width: 125px;
+    background-image: url(./right\ heart.jpeg);
+   animation: rightheart;
+   animation-duration: 2s;
+   animation-delay: 2s;
+   animation-iteration-count: 1;
+}
+article{
+    height: 200px;
+    width: 200px;
+   font-size: 300px;
+   position: absolute;
+   top: 70px;
+   right: 180px;
+   animation: arrow;
+   animation-duration: 2s;
+   animation-iteration-count: 1;
+}
+@keyframes arrow {
+    from{
+        top: 300px;
+        right: 700px;
+    }
+    to{
+        top: 70px;
+        right: 180px;
+    }
+}
+@keyframes leftheart{
+    from{
+margin: 0px;
+transform: rotate(0deg);
+    }
+    to{
+margin: 10px;
+transform: rotate(-10deg);
+    }
+}
+@keyframes rightheart{
+    from{
+margin: 0px;
+transform: rotate(0deg);
+    }
+    to{
+margin: 10px;
+transform: rotate(10deg);
+    }
+}

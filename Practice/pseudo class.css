@@ -1,0 +1,42 @@
+#Login:hover{
+    color: red;
+    background-color: blue;
+}
+#Signup:hover{
+    color: blue;
+    background-color: red;
+}
+h1{
+    text-align: center;
+}
+h1:hover{
+    text-align: center;
+    color: whitesmoke;
+    background-color:black;
+    text-decoration: whitesmoke underline;
+}
+#Login:active {
+    color: yellow;
+    background-color: green;
+}
+#Signup:active {
+    color:yellow;
+    background-color: green;
+}
+input[type="radio"]:checked + label{
+    color: green;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+a:link{
+    color-scheme: red;
+}
+a:active{
+    color: bisque;
+    background-color: black;
+}
+a:visited{
+    color: blueviolet;
+}

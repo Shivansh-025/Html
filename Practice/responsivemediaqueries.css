@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+}
+@media(max-width:1020px){
+    nav{
+        background-color: yellow;
+    }
+}
+@media(max-width:800px){
+    nav{
+        background-color: rgb(20, 108, 223);
+    }
+}
+@media(max-width:500px){
+    nav{
+        background-color: rgb(30, 6, 117);
+    }
+}

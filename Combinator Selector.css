@@ -1,0 +1,40 @@
+/* Child selector ka use hm karte hai > ka symbol laga ke */
+main>div{
+    height: 200px;
+    color: blue;
+    background-color: yellow;
+}
+main>div>section{
+    height: 100px;
+    color: green;
+    background-color: rgb(255, 0, 0);
+}
+main #div1 #sec1{
+    margin-top: 100px;
+    height: 100px;
+    background-color: yellow
+}
+main #id1{
+    height: 200px;
+    color: blue;
+    background-color: red;
+}
+/* + ka use adjacent sibling selector ka use krne ke liye karte hai */
+/* ~ ka use general sibling selector ka use krne ke liye karte hai */
+[title="Html"]
+{
+    background-color: brown;
+}
+/* starting value ko check krke usko target karta hai */
+[title^="c"]{
+    background-color: blue;
+}
+/* (any character invalue)characters ko match karke CSS lagata hai */
+[id*="kk"]{
+    background-color: orangered;
+}
+/* $(end with) ending character ko match karke css apply karta hai */
+[class$="k"]{
+    background-color: yellow;
+}
+/* ~( value seperated'-') ka use hum tab karte hai jab values ke bich me - ho */

@@ -1,0 +1,14 @@
+div{
+    height: 200px;
+    width: 200px;
+    color: blue;
+    background-color: yellow;
+    /*opacity ka use hum karte hai element ki transparency ko badhane ya ghatne ke liye*/
+    opacity: 0.7;
+}
+div:hover{
+    color: rgb(255, 105, 180);
+    background-color: rgba(255, 105, 180, 0.6);
+    border-radius: 50%;
+    transition-duration: 2s;
+}

@@ -1,0 +1,12 @@
+
+h1:hover{
+    color: blue;
+    text-decoration:red underline;
+}
+li::marker{
+    color:blue;
+}
+ul li:hover{
+    color: green;
+    text-decoration: solid red line-through;
+}

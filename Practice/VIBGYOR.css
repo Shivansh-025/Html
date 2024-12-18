@@ -1,0 +1,46 @@
+#rainbow{
+    height: 500px;
+    width: 60%;
+    border: solid black;
+    display: flex;
+    flex-direction: row;
+    margin: 10px auto;
+    flex-wrap: row;
+}
+#rainbow div{
+   height: 100px;
+   width: 100px;
+   color: black;
+   font-size:1.4em;
+}
+h1{
+   text-align: center;
+}
+#voilet{
+    border: solid violet;
+    background-color: violet;
+}
+#indigo{
+    border: solid indigo;
+    background-color: indigo;
+}
+#blue{
+    border: solid blue;
+    background-color: blue;
+}
+#green{
+    border: solid green;
+    background-color: green;
+}
+#yellow{
+    border: solid yellow;
+    background-color: yellow;
+}
+#orange{
+    border: solid orange;
+    background-color: orange;
+}
+#red{
+    border: solid red;
+    background-color: red;
+}

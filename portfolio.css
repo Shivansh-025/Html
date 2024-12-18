@@ -1,0 +1,22 @@
+/* #main{
+    background: url(./1.jpg);
+} */
+h1{
+    text-align: center;
+    text-decoration: solid;
+    text-decoration-color: black;
+    text-decoration: underline;
+}
+h2{
+    color: red;
+    text-decoration: solid red underline ;
+}
+a{
+    text-decoration: none;
+}
+#MyName{
+    color: green;
+    text-align: center;
+    text-decoration: solid;
+    text-decoration:blue underline;
+}

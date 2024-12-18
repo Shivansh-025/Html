@@ -1,0 +1,36 @@
+/* there are 5 units-: */
+/* px */
+/*  vh/vw  */
+/* em/rem */
+/* % */
+section{
+    height: 50vh;
+    width: 50vh;
+    background-color: red;
+    border: 5px solid black;
+}
+main{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+article{
+    height: 50%;
+    width: 50%;
+    background-color: aqua;
+}
+/* em values always depends on current fon size */
+aside{
+    height: 2px;
+    width: 200px;
+    background-color: brown;
+    font-size: 16px;
+    color: bisque;
+    border;
+}
+footer{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+
+}

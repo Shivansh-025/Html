@@ -1,0 +1,33 @@
+#square{
+    height: 200px;
+    width: 70px;
+    border: 2px solid black;
+}
+#red{
+    background-color: red;
+}
+#red:hover{
+    background-color: red;
+     border-radius:50%
+}
+#yellow{
+    background-color: yellow;  
+}
+#yellow:hover{
+    background-color: yellow;
+     border-radius:50%  
+}
+#green{
+    background-color: green;
+}
+#green:hover{
+    background-color: green;
+    border-radius:50%
+}
+.circle{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    
+}

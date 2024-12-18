@@ -1,0 +1,24 @@
+html{
+    --color:yellow;
+}
+div{ 
+    /* align-items: center; */
+    align-content: center;
+    background-color: var(--color);
+    height: 350px;
+    width: 350px;
+}
+h1::first-letter{
+    color: red;
+    font-size: 80px;
+}
+h1::after{
+    content: "❤️";
+    font-size: 80px;
+}
+li::marker{
+    color: blue;
+}
+li::selection{
+    background-color: blueviolet;
+}

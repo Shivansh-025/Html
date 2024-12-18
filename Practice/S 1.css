@@ -1,0 +1,198 @@
+#bigsq{
+    height: 200px;
+    width: 200px;
+    border: solid black;
+    margin: 10px auto;
+}
+#smallsq1{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+}
+#smallsq2{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    margin-left: 50px;
+}
+#smallsq3{
+    height: 50px;
+    width:50px;
+    background-color: black;
+    margin-left: 100px;
+}
+#smallsq4{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    margin-left: 150px;
+}
+#bigsq2{
+    height: 200px;
+    width: 200px;
+    border: solid black;
+    margin: 10px auto;
+}
+#smallsq21{
+    width: 50px;
+    height: 50px;
+    margin-left: 75px;
+    background-color: yellow;
+}
+#a{
+    display: flex;
+}
+#smallsq22{
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+    background-color: red;
+}
+#smallsq23{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+}
+#smallsq24{
+    height: 50px;
+    width: 50px;
+    margin-left: 25px;
+    background-color: yellow;
+
+}
+#smallsq25{
+    height: 50px;
+    width: 50px;
+    margin-left: 75px;
+    background-color: blueviolet;
+    position: relative;
+    top: -50px;
+}
+#smallsq26{
+    height: 50px;
+    width: 50px;
+    margin-left: 125px;
+    background-color: blue;
+    position: relative;
+    top: -100px;
+}
+#smallsq27{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    position: relative;
+    top: -100px;
+}
+#smallsq28{
+    height: 50px;
+    width: 50px;
+    margin-left: 50px;
+    background-color: blue;
+    position: relative;
+    top: -150px;
+}
+#smallsq29{
+    height: 50px;
+    width: 50px;
+    margin-left: 100px;
+    background-color: yellow;
+    position: relative;
+    top: -200px;
+}
+#smallsq210{
+    height: 50px;
+    width: 50px;
+    margin-left: 150px;
+    background-color: green;
+    position: relative;
+    top: -250px;
+}
+#main{
+    height: 400px;
+    width: 400px;
+    border: solid black;
+    animation: face 5s infinite;
+    margin: 10px auto;
+}
+#face{
+    margin-left: 150px;
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 170, 0);
+    border: solid black;
+    border-radius: 50%;
+}
+#face:hover{
+    transition-duration: 5s;
+    background-color: red;
+    
+}
+#eyes{
+    display: flex;
+}
+#lefteye{
+    height: 15px;
+    width: 15px;
+    background-color: black;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+#righteye{
+    height: 15px;
+    width: 15px;
+    background-color: black;
+    border-radius: 50%;
+    margin-top: 28px;
+    margin-left: 30px;
+}
+#nose{
+    height: 30px;
+    width: 10px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 45px;
+}
+#mouth{
+    height: 10px;
+    width: 30px;
+    background-color: rgb(255, 251, 251);
+    margin-left: 35px;
+    margin-top: 3px;
+}
+#neck{
+    height: 25px;
+    border: 1px solid black;
+    width:45px;
+    background-color: blue;
+    margin-left: 181px;
+}
+#stomach{
+    height: 100px;
+    width: 100px;
+    margin-left: 150px;
+    background-color: greenyellow;
+    border: solid greenyellow;
+}
+#heart{
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+#legs{
+    display: flex;
+}
+#leftleg{
+    height: 100px;
+    width: 20px;
+    background-color: greenyellow;
+    margin-left: 165px;
+}
+#rightleg{
+    height: 100px;
+    width: 20px;
+    background-color: greenyellow;
+    margin-left: 35px;
+}
